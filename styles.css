@@ -59,3 +59,63 @@ div{
     margin: 20px;
     padding: 20px;
 }
+
+p.info-first{
+color:red;
+font-weight: bold;
+}
+
+.info-second{
+    color:blue;
+}
+
+.info-third{
+    color:green;
+}
+
+#content{
+    border:2px solid greenyellow;
+    text-align: center;
+}
+
+.parent .child-one{
+    color: crimson;
+    text-align: center;
+    font-size: bold;
+}
+
+.parent .child-two{
+    color: cornflowerblue;
+    text-align: center;
+    font-size: bold;
+    font-size: 22px;
+}
+
+a[href]{
+    background-color: cyan;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+a[href*="google"]{
+    background-color: greenyellow;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.bottom-section {
+    border: 1px solid cornflowerblue;
+    color: crimson;
+    font-weight: bold;
+    font-size: 22px;
+    margin: 40px;
+}
+
+.bottom-section p {
+    margin: inherit;
+    border: inherit;
+}
+
