@@ -1,0 +1,57 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.header {
+    background: crimson;
+    margin: 0px 0px 20px 0px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header h2 {
+    font-weight: bold;
+    color: white;
+    margin: 0;
+}
+
+.course-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0px 12px 0px 12px;
+}
+
+section {
+    background: #cccc;
+    padding: 20px;
+    margin: 16px;
+}
+
+section p {
+    margin: 12px 0px 0px 0px;
+}
+
+button {
+    position: fixed;
+    bottom: 40px;
+    right: 10px;
+    padding: 6px;
+    background: cornflowerblue;    
+    font-weight: 500;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+}
+
+button a {
+    text-decoration: none;
+    color: white;
+}
